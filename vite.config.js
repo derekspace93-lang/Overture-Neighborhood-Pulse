@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base:
     process.env.NODE_ENV === "production"
-      ? "/overture-neighborhood-pulse/"
+      ? "/Overture-Neighborhood-Pulse/"
       : "/",
 });
